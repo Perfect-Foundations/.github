@@ -84,6 +84,24 @@ The brand never replaces the technical contract.
 
 ---
 
+## Live family status
+
+The 40 planned crates now use a common gate-based status system:
+
+- **40 / 40** authoritative `project-status.toml` records;
+- **40 / 40** README progress/readiness dashboards;
+- **40 / 40** Project Blueprint state summaries;
+- **40 / 40** portfolio rows in the Perfect Family GitHub Project;
+- **40 / 40** repository synchronization workflows.
+
+The initial common baseline is **M0 — Architecture**, with **12% overall lifecycle progress**, **60% architecture progress**, **0% implementation**, and **10% default-grade readiness**. Those numbers represent completed engineering gates—not commits, lines of code, or subjective estimates.
+
+Status changes are validated and rendered automatically from the repository's machine-readable status source.
+
+[Read the status/scoring system](https://github.com/Perfect-Foundations/perfect-family/blob/main/docs/STATUS-SYSTEM.md) · [Open the Perfect Family Project](https://github.com/orgs/Perfect-Foundations/projects/1)
+
+---
+
 ## Adoption ambition
 
 The long-term objective is for mature Perfect Foundations crates to be credible **default-grade infrastructure**:
