@@ -1,0 +1,36 @@
+name: Architecture / design proposal
+description: Propose or refine scope, contracts, dependencies, representations, or qualification strategy.
+title: "[Architecture] "
+labels: []
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What foundational problem or ambiguity needs to be resolved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed design
+      description: Describe the proposed contract, representation, API direction, or architectural change.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives and existing work
+      description: What existing Rust or non-Rust implementations should be reused, compared, or avoided?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Family impact
+      description: Which Perfect crates or application domains could be affected?
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification plan
+      description: How should correctness, determinism, performance, and interoperability be demonstrated?
