@@ -84,6 +84,24 @@ The brand never replaces the technical contract.
 
 ---
 
+## Adoption ambition
+
+The long-term objective is for mature Perfect Foundations crates to be credible **default-grade infrastructure**:
+
+- a natural first choice for Rust developers in their respective domains;
+- suitable for Linux distribution packaging;
+- buildable from source offline and reproducibly;
+- stable enough for other crates to expose in public APIs;
+- minimal and auditable enough for systems/infrastructure use;
+- portable across the targets each crate explicitly supports;
+- documented and qualified strongly enough that downstream maintainers can understand exactly what they are depending on.
+
+That status is **earned**, not declared. Perfect Foundations does not currently claim endorsement by the Rust project, crates.io, or any Linux distribution.
+
+The family-wide criteria are recorded in the [Adoption Standard](https://github.com/Perfect-Foundations/perfect-family/blob/main/docs/ADOPTION-STANDARD.md) and [Linux Distribution Readiness](https://github.com/Perfect-Foundations/perfect-family/blob/main/docs/DISTRO-READINESS.md) documents.
+
+---
+
 ## Engineering principles
 
 Perfect-family projects target these principles where appropriate:
