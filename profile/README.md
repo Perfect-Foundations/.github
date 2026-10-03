@@ -120,6 +120,26 @@ The family-wide criteria are recorded in the [Adoption Standard](https://github.
 
 ---
 
+## Durable design records
+
+Every planned Perfect crate now separates current presentation from durable engineering history:
+
+| Record | Purpose |
+|---|---|
+| **Project Blueprint** | Detailed architecture starting point and project boundaries |
+| **project-status.toml** | Authoritative current lifecycle/readiness state |
+| **Architecture Decision Records** | Why material design choices were accepted, rejected, or superseded |
+| **Requirements Index** | Stable requirement identities and lifecycle |
+| **Traceability Matrix** | Requirement → Design → Implementation → Evidence → Qualification chain |
+
+Family-wide definitions and rules are maintained centrally:
+
+[Glossary & Terminology](https://github.com/Perfect-Foundations/perfect-family/blob/main/docs/GLOSSARY.md) · [ADR Standard](https://github.com/Perfect-Foundations/perfect-family/blob/main/docs/ADR-STANDARD.md) · [Requirements & Traceability](https://github.com/Perfect-Foundations/perfect-family/blob/main/docs/REQUIREMENTS-TRACEABILITY.md)
+
+Creating records does not itself count as progress; accepted decisions, approved requirements, implementation, evidence, and completed gates do.
+
+---
+
 ## Engineering principles
 
 Perfect-family projects target these principles where appropriate:
