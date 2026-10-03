@@ -122,19 +122,16 @@ Perfect-family projects target these principles where appropriate:
 
 ## Architecture philosophy
 
-```mermaid
-flowchart TD
-    N[Numeric semantics] --> A[Exact arithmetic]
-    A --> R[Rational / Float / Decimal]
-    R --> M[Mathematics]
-    M --> E[Engineering & Scientific Foundations]
-    M --> Q[Quantum Foundations]
-    E --> D[Applied Domains]
-    D --> W[Canonical Representation & Evidence]
-    W --> C[Authoritative Data & Constants]
-    P[Perfectπ] -. specialist input .-> M
-    P -. specialist input .-> C
-```
+| Foundation flow | Direction |
+|---|---|
+| **Numeric semantics** | → Exact arithmetic |
+| **Exact arithmetic** | → Rational / Float / Decimal |
+| **Rational / Float / Decimal** | → Mathematics |
+| **Mathematics** | → Engineering & Scientific Foundations · Quantum Foundations |
+| **Engineering & Scientific Foundations** | → Applied Domains |
+| **Applied Domains** | → Canonical Representation & Evidence |
+| **Canonical Representation & Evidence** | → Authoritative Data & Constants |
+| **Perfectπ** | Specialist input to mathematics and constants where π is genuinely required |
 
 This diagram shows **development lineage**, not a mandatory linear dependency chain.
 
