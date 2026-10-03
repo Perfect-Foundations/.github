@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="../docs/assets/brand/logo.svg" width="128" alt="Perfect Foundations logo">
+
 # Perfect Foundations
 
 ### High-assurance foundational Rust infrastructure for exact, deterministic, reproducible, and verifiable computing.
